@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login_style.css">
+</head>
+
+<body>
+    <main id="main-holder">
+        <h1 id="login-header">Login</h1>
+
+
+        <form id="login-form" action="http://127.0.0.1:5000/login" method='post'>
+            <input type="text" name="nm" id="username-field" class="login-form-field" placeholder="Username">
+            <input type="password" name="pass" id="password-field" class="login-form-field" placeholder="Password">
+            <input type="submit" value="Login" id="login-form-submit">
+            <a href="http://127.0.0.1:5000/new_user">New User?</a>
+        </form>
+
+    </main>
+</body>
+
+</html>

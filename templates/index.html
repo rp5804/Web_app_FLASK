@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uControl Web Portal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+    <header>
+        <p class="name">Welcome {{name}}</p>
+        <p class="logout">logout</p>
+        <h1 class="title">uControl Web Portal</h1>
+    </header>
+
+    <div>
+
+        <p class="choice" id="net_stat">View ISP Network Status</p>
+        <p class="choice" id="rtr_stat">View Router Status</p>
+        <p class="choice" id="inet_speed">Test Internet Speed</p>
+        <p class="choice" id="conf_dev">Configure Devices</p>
+
+    </div>
+</body>
+
+</html>
